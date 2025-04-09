@@ -1,4 +1,4 @@
-name: Backend Pipeline
+name: Frontend Pipeline
 on:
   push:
     branches: [main]
@@ -6,5 +6,5 @@ jobs:
   build-and-deploy:
     uses: ismaelGTI/microHackaton-CleanCode2/.github/workflows/ci-cd-backend.yml@main
     with:
-      java-version: '17'
+      node-version: '18'
       deploy-target: 'prod-backend1'
