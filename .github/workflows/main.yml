@@ -6,5 +6,5 @@ jobs:
   build-and-deploy:
     uses: ismaelGTI/microHackaton-CleanCode2/.github/workflows/ci-cd-frontend.yml@main
     with:
-      node-version: '18'
-      deploy-target: 'prod-backend1'
+      node-version: '16'
+      deploy-target: 'prod-frontend1'
