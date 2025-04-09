@@ -5,4 +5,4 @@ PRUEBA NO.1
 d1
 11
 2
-2
+2pl
